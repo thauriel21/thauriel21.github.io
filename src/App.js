@@ -1,10 +1,19 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import './App.css';
-import pagina from './component/pagina.js';
+
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div className="App">
-     <h1>Alynson Natalia Roldan Fuentes</h1>
-    </div>
+    <Router>
+    <Routes>
+      <Route path="/" element = {<Home />}/>
+    </Routes>
+    </Router>
   );
 }
 
