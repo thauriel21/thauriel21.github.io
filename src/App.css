@@ -28,12 +28,18 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.carousel,
+.carousel>.carousel-inner>.carousel-item>img {
+  height: 500px;
 
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+
+.App{
+  margin: 0;
+  background:linear-gradient(rgb(104, 5, 126), rgb(173, 69, 194), rgb(0, 0, 0));
+  color: rgb(255, 255, 255);
+  font-family: 'Pacifico', cursive;
+
+  
 }
